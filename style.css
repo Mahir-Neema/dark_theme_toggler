@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* css for header */
+.header{
+    width: 100%;
+    padding: 20px 100px;
+    background-color: grey;
+    /* justify-content: flex-end; */
+}
+
+.left img{
+    width: 45px;
+    height: 45px;
+    margin: 15px
+}
+
+.container{
+    padding: 0 5vw;
+    justify-content: center;
+}
+
+nav{
+    font-size: 30px;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.world:hover{
+    text-decoration: underline rgb(255, 4, 4) 3px;
+}
+.asia:hover{
+    text-decoration: underline rgb(255, 205, 4) 3px;
+}
+.europe:hover{
+    text-decoration: underline rgb(4, 46, 255) 3px;
+}
+.north:hover{
+    text-decoration: underline rgb(255, 163, 4) 3px;
+}
+.south:hover{
+    text-decoration: underline rgb(37, 219, 9) 3px;
+}
+
+
+
+
+.theme_button{
+    padding: 6px 19px;
+    padding-top: 7px;
+    list-style: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+}
+.theme_button:hover{
+    text-decoration: underline rgb(242, 7, 148) 3px;
+}
+
+
+.theme_button:active{
+    text-decoration: underline rgb(255, 181, 10) 3px;
+}
+
+
+/* css for places */
+.places{
+    width: 100%;
+    padding: 50px 100px;
+    /* background-color: lightgrey; */
+}
+
+.places_title{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.places_container{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 50px;
+}
+
+.places_card{
+    width: 22%;
+    /* 400px */
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 3px grey;
+    transition: .2s;
+}
+
+.places_card:hover{
+    transform: scale(1.1);
+}
+
+.places_img{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+.place_srcimg{
+    width: 100%;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.place_srcimg:hover{
+    transform: scale(1.1);
+}
+
+.place_details{
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+}
+
+.places_title{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.btn{
+    padding: 14px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* dark theme css */
+.dark{
+    background-color: rgb(56 54 52);
+    /* rgb(56 54 52); */
+    color: white;
+}
+
+.dark_card{
+    background-color: rgb(38, 36, 35);
+    box-shadow: 0 0 4px lightgrey;
+    color: white;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: rgba(0 0 0 / 24%) 0px 3px 8px;
+    background-color: grey;
+}
